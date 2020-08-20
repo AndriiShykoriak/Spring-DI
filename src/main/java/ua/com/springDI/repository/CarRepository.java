@@ -13,7 +13,6 @@ public class CarRepository {
 
     public CarRepository(Car car) {
         this.car = car;
-        car.setModel("bmw");
         carDb.put(1, car);
     }
 }

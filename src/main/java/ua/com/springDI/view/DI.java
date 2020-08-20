@@ -13,7 +13,7 @@ public class DI {
     UserService userService;
 
     public void printCarWithUser() {
-        carService.printCar();
         userService.printUser();
+        carService.printCar();
     }
 }

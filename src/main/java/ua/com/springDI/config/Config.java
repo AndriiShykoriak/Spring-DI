@@ -13,7 +13,7 @@ public class Config {
     }
 
     @Bean
-    public Car car() {
-        return new Car();
+    public Car car(User user) {
+        return new Car(user);
     }
 }

@@ -8,5 +8,5 @@ import lombok.*;
 @Setter
 @ToString
 public class Car {
-    private String model;
+    private User user;
 }
